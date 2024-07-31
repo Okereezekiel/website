@@ -1,0 +1,1198 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100vh;
+}
+nav{
+    display: flex;
+    padding-block: 30px;
+    align-items: center;
+    justify-content: space-around;
+}
+nav img{
+    width: 50px;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    margin-left: 80px;
+    list-style-type: none;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    border: solid 2px;
+    padding-inline: 5px;
+    text-decoration: none;
+    border-color: black;
+    color: black;
+}
+a i{
+    transform: rotatez(30deg);
+}
+.section1{
+    display: flex;
+    background-color: azure;
+}
+.hero img{
+width: 400px;
+height: 300px;
+}
+.hero{
+    margin-right: 150px;
+    margin-left: 90px;
+}
+.hero h1{
+    margin-bottom: 20px;
+}
+.hero p{
+    margin-bottom: 20px;
+}
+.hero a{
+    border: solid 2px;
+    text-decoration: none;
+    background-color: black;color: white;
+    padding: 5px 10px 5px 10px;
+}
+.section2{
+    display: flex;
+}
+.hero2 img{
+    width: 400px;
+    height: 300px;
+}
+.hero2{
+    margin-right: 150px;
+    margin-left: 90px;
+}
+.hero2 h1{
+    margin: 30px;
+}
+.hero2 p{
+    margin-bottom: 20px;
+}
+.container2{
+    background-color: palevioletred;
+}
+.section3{
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+}
+.sect3 img{
+    width: 400px;
+    height: 300px;
+}
+.sect3{
+    margin-left: 90px;
+}
+.sect3 h1{
+    margin: 30px;
+}
+.sect3 p{
+    margin-bottom: 20px;
+}
+.con{
+    padding-left: 450px;
+}
+.conk{
+    padding-left: 550px;
+}
+.conp{
+    padding-left: 480px;
+}
+.section4{
+    display: flex;
+    margin-top: 30px;
+}
+.sect4 img{
+    width: 300px;
+    height: 500px;
+}
+.sect5 img{
+    width: 300px;
+    height: 240px;
+    position: absolute;
+    right: 600px;
+}
+.sect6 img{
+    width: 300px;
+    height: 240px;
+    position: absolute;
+    top: 1990px;
+    right: 600px;
+}
+.sect7{
+    position: absolute;
+    left: 700px;
+}
+.sect7 h1{
+    margin-bottom: 40px;
+}
+.sect7 p{
+    margin-bottom: 40px;
+}
+.sect7 dt{
+    margin-bottom: 30px;
+}
+.sect7 dl{
+    margin-bottom: 20px;
+}
+.section5{
+    background: url(images/pexels-hardeep-25391845.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 30px;
+    height: 250px;
+}
+.section5 h2{
+    margin-left: 350px;
+    color: white;
+    padding-bottom: 20px;
+}
+.pin{
+    padding-left: 150px;
+}
+.section5 p{
+    color: white;
+    margin-left: 310px;
+    padding-bottom: 20px;
+}
+.man{
+    margin-left: 500px;
+    text-decoration: none;
+    border: solid 2px;
+    background-color: white;
+    border-color: white;
+    padding-inline: 10px;
+    padding-block: 5px;
+}
+.container4{
+    background-color:brown;
+}
+.section9{
+    display:grid ;
+    grid-template-columns: repeat(5, 3fr);
+    padding-left: 40px;
+}
+.section9 a{
+    text-decoration: none;
+    color: white;
+}
+.section9 p{
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.section9 dl{
+    padding-bottom: 20px;
+}
+hr{
+    width: 1150px;
+    margin-top: 0px;
+    position: absolute;
+    right: 30px;
+}
+.zed{
+    position: absolute;
+    right: 1130px;
+    font-size: small;
+}
+.why{
+    font-size: small;
+    margin-right: 30px;
+}
+.lin{
+    background-color: black;
+    position: absolute;
+    top: 2650px;
+    left: 1100px;
+    padding-bottom: 7px;
+    padding-inline: 10px;
+}
+input{
+    background-color: transparent;
+    padding: 5px 10px;
+   
+}
+
+
+
+
+
+
+
+@media ( max-width: 768px){
+    nav{
+        display: flex;
+        padding-block:  10px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    nav img{
+        width: 30px;
+    }
+    nav ul{
+        display: none;
+    }
+    nav li{
+        margin-left: 30px;
+        list-style-type: none;
+    }
+    nav a{
+        text-decoration: none;
+        color: black;
+        margin-right: 220px;
+    }
+    .main{
+        border: solid 2px;
+        padding-inline: 5px;
+        text-decoration: none;
+        border-color: black;
+        color: black;
+    }
+    /* nav ends here */
+.section1{
+    display: block;
+    background-color: azure;
+}
+.hero img{
+width: 400px;
+height: 300px;
+margin-bottom: 60px;
+}
+.hero{
+    margin-right: 150px;
+    margin-left: 90px;
+}
+.hero h1{
+    margin-bottom: 20px;
+}
+.hero p{
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.hero a{
+    border: solid 2px;
+    text-decoration: none;
+    background-color: black;color: white;
+    padding: 5px 10px 5px 10px;
+}
+.section2{
+    display: block;
+}
+.hero2 img{
+    width: 400px;
+    height: 300px;
+    margin-top: 30px;
+}
+.hero2{
+    margin-right: 150px;
+    margin-left: 90px;
+}
+.hero2 h1{
+    margin: 30px;
+}
+.hero2 p{
+    margin-bottom: 20px;
+    }
+    /* ends here */
+    .container2{
+        background-color: palevioletred;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .section3{
+        display: block;
+        
+    }
+    .sect3 img{
+        width: 400px;
+        height: 300px;
+    }
+    .sect3{
+        margin-left: 90px;
+    }
+    .sect3 h1{
+        align-items: center;
+        justify-content: center;
+    }
+    .sect3 p{
+        margin-bottom: 30px;
+    }
+    .con{
+        padding-left: 120px;
+    }
+    .conk{
+        padding-left: 200px;
+        padding-bottom: 30px;
+    }
+    .conp{
+        padding-left: 150px;
+        
+    }
+    /* ends here */
+
+    .section4{
+        display: flex;
+        margin-top: 5px;
+    }
+    .sect4 img{
+        width: 150px;
+        height: 300px;
+    }
+    .sect5 img{
+        width: 200px;
+        height: 150px;
+        position: absolute;
+        left: 153px;
+        top: 2897px;
+    }
+    .sect6 img{
+        width: 200px;
+        height: 150px;
+        position: absolute;
+        top: 2747px;
+        left: 153px;
+    }
+    .sect7{
+        position: absolute;
+        left: 360px;
+    }
+    .sect7 h1{
+        margin-bottom: 10px;
+    }
+    .sect7 p{
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    .sect7 dt{
+        margin-bottom: 10px;
+    }
+    .sect7 dl{
+        margin-bottom: 10px;
+        font-size: 11px;
+    }
+    /* ends here */
+
+    section5{
+        background: url(images/pexels-hardeep-25391845.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding-top: 30px;
+        height: 250px;
+    }
+    .section5 h2{
+        margin-left: 100px;
+        color: white;
+        padding-bottom: 20px;
+    }
+    .pin{
+        padding-left: 140px;
+    }
+    .section5 p{
+        color: white;
+        margin-left: 100px;
+        padding-bottom: 20px;
+    }
+    .man{
+        margin-left: 260px;
+        text-decoration: none;
+        border: solid 2px;
+        background-color: white;
+        border-color: white;
+        padding-inline: 10px;
+        padding-block: 5px;
+    }
+    /* ennds here */
+
+    .container4{
+        background-color:brown;
+    }
+    .section9{
+        display:grid ;
+        grid-template-columns: repeat(3, 3fr);
+        padding-left: 40px;
+    }
+    .section9 a{
+        text-decoration: none;
+        color: white;
+    }
+    .section9 p{
+        color: white;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        font-size: 8px;
+    }
+    .section9 dl{
+        padding-bottom: 20px;
+        font-size: 6px;
+    }
+    hr{
+        width: 1150px;
+        margin-top: 0px;
+        position: absolute;
+        right: 30px;
+    }
+    .zed{
+        position: absolute;
+        right: 669px;
+        font-size: small;
+    }
+    .why{
+        font-size: small;
+        margin-right: 70px;
+    }
+    .lin{
+        background-color: black;
+        position: absolute;
+        top: 3632px;
+        left: 387px;
+        padding-bottom: 7px;
+        padding-inline: 10px;
+    }
+    input{
+        background-color: transparent;
+        padding: 5px 10px;
+       
+    }
+}
+
+
+
+@media ( max-width: 425px){
+    nav{
+        display: flex;
+        padding-block:  10px;
+        align-items: center;
+        justify-content: space-around;
+    }
+    nav img{
+        width: 30px;
+    }
+    nav ul{
+        display: none;
+    }
+    nav li{
+        margin-left: 30px;
+        list-style-type: none;
+    }
+    nav a{
+        text-decoration: none;
+        color: black;
+        margin-right: 30px;
+    }
+    .main{
+        border: solid 2px;
+        padding-inline: 5px;
+        text-decoration: none;
+        border-color: black;
+        color: black;
+    }
+    /* nav ends here */
+.section1{
+    display: block;
+    background-color: azure;
+}
+.hero img{
+width: 200px;
+height: 250px;
+margin-bottom: 60px;
+}
+.hero{
+    margin-right: 150px;
+    margin-left: 90px;
+}
+.hero h1{
+    margin-bottom: 20px;
+}
+.hero p{
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.hero a{
+    border: solid 2px;
+    text-decoration: none;
+    background-color: black;color: white;
+    padding: 5px 10px 5px 10px;
+}
+.section2{
+    display: block;
+}
+.hero2 img{
+    width: 200px;
+    height: 250px;
+    margin-top: 30px;
+}
+.hero2{
+    margin-right: 150px;
+    margin-left: 90px;
+}
+.hero2 h1{
+    margin: 30px;
+}
+.hero2 p{
+    margin-bottom: 20px;
+    }
+    /* ends here */
+    .container2{
+        background-color: palevioletred;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .section3{
+        display: block;
+        
+    }
+    .sect3 img{
+        width: 200px;
+        height: 250px;
+    }
+    .sect3{
+        margin-left: 90px;
+    }
+    .sect3 h1{
+        align-items: center;
+        justify-content: center;
+    }
+    .sect3 p{
+        margin-bottom: 30px;
+    }
+    .con{
+        padding-left: 40px;
+    }
+    .conk{
+        padding-left: 130px;
+        padding-bottom: 30px;
+    }
+    .conp{
+        padding-left: 60px;
+        
+    }
+    /* ends here */
+
+    .section4{
+        display: flex;
+        margin-top: 5px;
+    }
+    .sect4 img{
+        width: 100px;
+        height: 300px;
+    }
+    .sect5 img{
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        left: 110px;
+        top: 2943px;
+    }
+    .sect6 img{
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        top: 2793px;
+        left: 110px;
+    }
+    .sect7{
+        position: absolute;
+        left: 260px;
+    }
+    .sect7 h1{
+        margin-bottom: 10px;
+    }
+    .sect7 p{
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    .sect7 dt{
+        margin-bottom: 10px;
+    }
+    .sect7 dl{
+        margin-bottom: 10px;
+        font-size: 10px;
+    }
+    /* ends here */
+
+    section5{
+        background: url(images/pexels-hardeep-25391845.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding-top: 30px;
+        height: 250px;
+    }
+    .section5 h2{
+        margin-left: 50px;
+        color: white;
+        padding-bottom: 20px;
+        font-size: 20px;
+    }
+    .pin{
+        padding-left: 100px;
+    }
+    .section5 p{
+        color: white;
+        margin-left: 50px;
+        padding-bottom: 20px;
+        font-size: 11px;
+    }
+    .man{
+        margin-left: 140px;
+        text-decoration: none;
+        border: solid 2px;
+        background-color: white;
+        border-color: white;
+        padding-inline: 10px;
+        padding-block: 5px;
+    }
+    /* ennds here */
+
+    .container4{
+        background-color:brown;
+    }
+    .section9{
+        display:grid ;
+        grid-template-columns: repeat(3, 3fr);
+        padding-left: 40px;
+    }
+    .section9 a{
+        text-decoration: none;
+        color: white;
+    }
+    .section9 p{
+        color: white;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        font-size: 8px;
+    }
+    .section9 dl{
+        padding-bottom: 20px;
+        font-size: 6px;
+    }
+    hr{
+        width: 1150px;
+        margin-top: 0px;
+        position: absolute;
+        right: 30px;
+    }
+    .zed{
+        position: absolute;
+        right: 350px;
+        font-size: small;
+    }
+    .why{
+        font-size: 15px;
+        margin-right: 0px;
+    }
+    .lin{
+        background-color: black;
+        position: absolute;
+        top: 3678px;
+        left: 237px;
+        padding-bottom: 7px;
+        padding-inline: 10px;
+    }
+    input{
+        background-color: transparent;
+        padding: 5px 10px;
+       
+    }
+}
+
+
+
+
+@media ( max-width: 375px){
+    nav{
+        display: flex;
+        padding-block:  10px;
+        align-items: center;
+        justify-content: space-around;
+    }
+    nav img{
+        width: 30px;
+    }
+    nav ul{
+        display: none;
+    }
+    nav li{
+        margin-left: 30px;
+        list-style-type: none;
+    }
+    nav a{
+        text-decoration: none;
+        color: black;
+        margin-right: 30px;
+    }
+    .main{
+        border: solid 2px;
+        padding-inline: 5px;
+        text-decoration: none;
+        border-color: black;
+        color: black;
+    }
+    /* nav ends here */
+.section1{
+    display: block;
+    background-color: azure;
+}
+.hero img{
+width: 200px;
+height: 250px;
+margin-bottom: 60px;
+}
+.hero{
+    margin-right: 150px;
+    margin-left: 90px;
+}
+.hero h1{
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.hero p{
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.hero a{
+    border: solid 2px;
+    text-decoration: none;
+    background-color: black;color: white;
+    padding: 5px 10px 5px 10px;
+}
+.section2{
+    display: block;
+}
+.hero2 img{
+    width: 200px;
+    height: 250px;
+    margin-top: 30px;
+}
+.hero2{
+    margin-right: 150px;
+    margin-left: 90px;
+}
+.hero2 h1{
+    margin: 30px;
+    font-size: 15px;
+}
+.hero2 p{
+    margin-bottom: 20px;
+    }
+    /* ends here */
+    .container2{
+        background-color: palevioletred;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .section3{
+        display: block;
+        
+    }
+    .sect3 img{
+        width: 200px;
+        height: 250px;
+    }
+    .sect3{
+        margin-left: 90px;
+    }
+    .sect3 h1{
+        align-items: center;
+        justify-content: center;
+    }
+    .sect3 p{
+        margin-bottom: 30px;
+    }
+    .con{
+        padding-left: 40px;
+    }
+    .conk{
+        padding-left: 130px;
+        padding-bottom: 30px;
+    }
+    .conp{
+        padding-left: 60px;
+        
+    }
+    /* ends here */
+
+    .section4{
+        display: flex;
+        margin-top: 5px;
+    }
+    .sect4 img{
+        width: 100px;
+        height: 300px;
+    }
+    .sect5 img{
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        left: 110px;
+        top: 2990px;
+    }
+    .sect6 img{
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        top: 2840px;
+        left: 110px;
+    }
+    .sect7{
+        position: absolute;
+        left: 260px;
+    }
+    .sect7 h1{
+        margin-bottom: 10px;
+    }
+    .sect7 p{
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    .sect7 dt{
+        margin-bottom: 10px;
+    }
+    .sect7 dl{
+        margin-bottom: 10px;
+        font-size: 5px;
+    }
+    /* ends here */
+
+    section5{
+        background: url(images/pexels-hardeep-25391845.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding-top: 30px;
+        height: 250px;
+    }
+    .section5 h2{
+        margin-left: 30px;
+        color: white;
+        padding-bottom: 20px;
+        font-size: 20px;
+    }
+    .pin{
+        padding-left: 100px;
+    }
+    .section5 p{
+        color: white;
+        margin-left: 50px;
+        padding-bottom: 20px;
+        font-size: 11px;
+    }
+    .man{
+        margin-left: 140px;
+        text-decoration: none;
+        border: solid 2px;
+        background-color: white;
+        border-color: white;
+        padding-inline: 10px;
+        padding-block: 5px;
+    }
+    /* ennds here */
+
+    .container4{
+        background-color:brown;
+    }
+    .section9{
+        display:grid ;
+        grid-template-columns: repeat(3, 3fr);
+        padding-left: 40px;
+    }
+    .section9 a{
+        text-decoration: none;
+        color: white;
+    }
+    .section9 p{
+        color: white;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        font-size: 8px;
+    }
+    .section9 dl{
+        padding-bottom: 20px;
+        font-size: 6px;
+    }
+    hr{
+        width: 1150px;
+        margin-top: 0px;
+        position: absolute;
+        right: 30px;
+    }
+    .zed{
+        position: absolute;
+        right: 320px;
+        font-size: small;
+    }
+    .why{
+        font-size: 15px;
+        margin-right: 30px;
+    }
+    .lin{
+        background-color: black;
+        position: absolute;
+        top: 3725px;
+        left: 215px;
+        padding-bottom: 7px;
+        padding-inline: 10px;
+    }
+    input{
+        background-color: transparent;
+        padding: 5px 10px;
+       
+    }
+}
+
+
+
+@media ( max-width: 320px){
+    nav{
+        display: flex;
+        padding-block:  10px;
+        align-items: center;
+        justify-content: space-around;
+    }
+    nav img{
+        width: 30px;
+    }
+    nav ul{
+        display: none;
+    }
+    nav li{
+        margin-left: 30px;
+        list-style-type: none;
+    }
+    nav a{
+        text-decoration: none;
+        color: black;
+        margin-right: 30px;
+    }
+    .main{
+        border: solid 2px;
+        padding-inline: 5px;
+        text-decoration: none;
+        border-color: black;
+        color: black;
+        font-size: 10px;
+    }
+    /* nav ends here */
+.section1{
+    display: block;
+    background-color: azure;
+}
+.hero img{
+width: 200px;
+height: 150px;
+margin-bottom: 60px;
+}
+.hero{
+    margin-right: 150px;
+    margin-left: 90px;
+}
+.hero h1{
+    margin-bottom: 20px;
+    font-size: 12px
+}
+.hero p{
+    margin-bottom: 20px;
+    font-size: 8px;
+}
+.hero a{
+    border: solid 2px;
+    text-decoration: none;
+    background-color: black;color: #ffffff;
+    padding: 5px 10px 5px 10px;
+    font-size: 9px;
+}
+.section2{
+    display: block;
+}
+.hero2 img{
+    width: 200px;
+    height: 150px;
+    margin-top: 30px;
+}
+.hero2{
+    margin-right: 150px;
+    margin-left: 90px;
+}
+.hero2 h1{
+    margin: 30px;
+    font-size: 12px;
+}
+.hero2 p{
+    margin-bottom: 20px;
+    font-size: 10px;
+    }
+    /* ends here */
+    .container2{
+        background-color: palevioletred;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .section3{
+        display: block;
+        
+    }
+    .sect3 img{
+        width: 200px;
+        height: 150px;
+    }
+    .sect3{
+        margin-left: 90px;
+    }
+    .sect3 h1{
+        align-items: center;
+        justify-content: center;
+    }
+    .sect3 p{
+        margin-bottom: 30px;
+    }
+    .con{
+        padding-left: 40px;
+    }
+    .conk{
+        padding-left: 80px;
+        padding-bottom: 30px;
+    }
+    .conp{
+        padding-left: 40px;
+        font-size: 17px;
+        
+    }
+    /* ends here */
+
+    .section4{
+        display: flex;
+        margin-top: 5px;
+    }
+    .sect4 img{
+        width: 100px;
+        height: 300px;
+    }
+    .sect5 img{
+        width: 120px;
+        height: 150px;
+        position: absolute;
+        left: 110px;
+        top: 2380px;
+    }
+    .sect6 img{
+        width: 120px;
+        height: 150px;
+        position: absolute;
+        top: 2235px;
+        left: 110px;
+    }
+    .sect7{
+        position: absolute;
+        left: 260px;
+    }
+    .sect7 h1{
+        margin-bottom: 10px;
+    }
+    .sect7 p{
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    .sect7 dt{
+        margin-bottom: 10px;
+    }
+    .sect7 dl{
+        margin-bottom: 10px;
+        font-size: 3px;
+    }
+    /* ends here */
+
+    section5{
+        background: url(images/pexels-hardeep-25391845.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding-top: 30px;
+        height: 250px;
+    }
+    .section5 h2{
+        margin-left: 50px;
+        color: white;
+        padding-bottom: 20px;
+        font-size: 20px;
+    }
+    .pin{
+        padding-left: 100px;
+    }
+    .section5 p{
+        color: white;
+        margin-left: 50px;
+        padding-bottom: 20px;
+        font-size: 11px;
+    }
+    .man{
+        margin-left: 140px;
+        text-decoration: none;
+        border: solid 2px;
+        background-color: white;
+        border-color: white;
+        padding-inline: 10px;
+        padding-block: 5px;
+    }
+    /* ennds here */
+
+    .container4{
+        background-color:brown;
+    }
+    .section9{
+        display:grid ;
+        grid-template-columns: repeat(3, 3fr);
+        padding-left: 40px;
+    }
+    .section9 a{
+        text-decoration: none;
+        color: white;
+    }
+    .section9 p{
+        color: white;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        font-size: 8px;
+    }
+    .section9 dl{
+        padding-bottom: 20px;
+        font-size: 6px;
+    }
+    hr{
+        width: 1150px;
+        margin-top: 0px;
+        position: absolute;
+        right: 30px;
+    }
+    .zed{
+        position: absolute;
+        right: 250px;
+        font-size: small;
+    }
+    .why{
+        font-size: 15px;
+        margin-right: 30px;
+    }
+    .lin{
+        background-color: black;
+        position: absolute;
+        top: 3120px;
+        left: 190px;
+        padding-bottom: 7px;
+        padding-inline: 10px;
+    }
+    input{
+        background-color: transparent;
+        padding: 5px 10px;
+       
+    }
+}
